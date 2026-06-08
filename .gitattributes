@@ -1,0 +1,6 @@
+# Exclude build artifacts and third-party dependencies from GitHub Linguist language statistics
+.next/** linguist-vendored
+node_modules/** linguist-vendored
+public/** linguist-vendored
+package-lock.json linguist-generated
+tsconfig.tsbuildinfo linguist-generated
