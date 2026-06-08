@@ -22,8 +22,7 @@ export default function HomePage() {
             loop
             muted
             playsInline
-            poster="/images/img_15.jpg"
-            className="w-full h-full object-cover scale-105 filter brightness-[0.75]"
+            className="absolute inset-0 w-full h-full object-cover scale-105 filter brightness-[0.75]"
           >
             <source src="/videos/college-tour.mp4" type="video/mp4" />
             Your browser does not support the video tag.
@@ -102,6 +101,7 @@ export default function HomePage() {
                 alt="State-of-the-art laboratory guidance" 
                 fill
                 priority
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 className="object-cover"
               />
             </div>
@@ -419,6 +419,7 @@ export default function HomePage() {
                     src={spotlight.image} 
                     alt={spotlight.author} 
                     fill
+                    sizes="48px"
                     className="object-cover grayscale hover:grayscale-0 transition-all duration-300"
                   />
                 </div>

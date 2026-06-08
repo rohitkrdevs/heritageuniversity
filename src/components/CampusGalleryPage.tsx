@@ -103,6 +103,7 @@ export default function CampusGalleryPage() {
                     src={item.image} 
                     alt={item.title} 
                     fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     className="object-cover group-hover:scale-105 transition-transform duration-500 filter brightness-95"
                   />
                   {/* Overlay grad */}
@@ -178,6 +179,7 @@ export default function CampusGalleryPage() {
                     src={GALLERY_ITEMS[lightboxIndex].image} 
                     alt={GALLERY_ITEMS[lightboxIndex].title} 
                     fill
+                    sizes="(max-width: 1200px) 100vw, 1200px"
                     className="object-contain rounded-lg shadow-2xl origin-center"
                   />
                 </div>
