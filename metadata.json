@@ -1,0 +1,6 @@
+{
+  "name": "Heritage University",
+  "description": "Welcome to Heritage University. Explore our admissions criteria, campus gallery, notices, about section, and contact center.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
